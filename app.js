@@ -6,9 +6,9 @@ var hosts = {
         server: httpProxy.createProxyServer(), 
         options: {target: 'http://localhost:3030'}
     },
-    "adify.be": {
+    "intexration.jonasdevlieghere.com": {
         server: httpProxy.createProxyServer(), 
-        options: {target: 'http://localhost:3000'}
+        options: {target: 'http://localhost:3030'}
     }
 };
 
