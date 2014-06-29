@@ -6,6 +6,10 @@ var hosts = {
         server: httpProxy.createProxyServer(), 
         options: {target: 'http://localhost:3030'}
     },
+    "www.intexration.com": {
+        server: httpProxy.createProxyServer(), 
+        options: {target: 'http://localhost:3030'}
+    },
     "intexration.jonasdevlieghere.com": {
         server: httpProxy.createProxyServer(), 
         options: {target: 'http://localhost:3030'}
